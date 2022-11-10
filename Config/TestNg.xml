@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All XmlDeserialization Cases" verbose="1">
+    <listeners >
+        <listener class-name="Report.Listener"/>
+    </listeners>
+    <test name="Xml deserialization">
+        <parameter name="testRunId1" value="TCTC-1"/>
+        <classes>
+            <class name="XmlDeserialization"/>
+        </classes>
+    </test>
+</suite>
